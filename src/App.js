@@ -5,7 +5,12 @@ import DogsList from './Containers/DogsList'
 
 class App extends Component {
   render() {
-    return <DogsList />;
+    return (
+      <div>
+        <h1 className="App-logo">SLAYERS</h1>
+        <DogsList />
+      </div>
+    )
   }
 }
 
